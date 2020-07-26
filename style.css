@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.ie6 img {
+	width:100%;
+}
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+.gridContainer {
+	width: 960px;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+#eventbookicon {
+	margin-top:47px;
+}
+
+#eventbooktext {
+	align: center;
+	font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100;
+	font-size:60px;
+	color:#FFFFFF;
+	padding-bottom:40px;
+}
+
+#eventbooksubheadertext {
+	align: center;
+	font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100;
+	font-size:40px;
+	color:#FFFFFF;
+}
+
+#eventbookdescriptiontext {
+	align: center;
+	font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100;
+	font-size:20px;
+	color:#FFFFFF;
+	padding-bottom: 30px;
+	width: 505px;
+	padding-left: 80px;
+}
+
+#rightheader {
+	width: 665px;
+	height: 550px;
+}
+
+#iphoneheader {
+	width: 237px;
+	height: 491px;
+	align: left;
+	padding-top:38px;
+	padding-bottom:36px;
+	background-image:url('./img/header_iphone.png');
+	background-size:237px 491px;
+	background-repeat: no-repeat;
+	background-position:left;
+	
+	display: block;
+}
+
+#abouteventbook1 {
+	align: center;
+	vertical-align: middle;	
+	margin-top: 101px;
+	margin-left: 80px;
+	height:100%;
+	width:100%;
+	
+	background-image:url('./img/calendars.png');
+	background:url(./img/calendars.png);
+	background-size:250px 227px;
+	background-repeat: no-repeat;
+	background-position:middle;
+	
+	display: block;
+}
+
+#abouteventbook2 {
+	align: center;
+	vertical-align: middle;	
+	margin-top: 101px;
+	margin-left: 80px;
+	height:100%;
+	width:100%;
+	
+	background-image:url(./img/themes.png);
+	background:url(./img/themes.png);
+	background-size:250px 227px;
+	background-repeat: no-repeat;
+	background-position:middle;
+	
+	display: block;
+}
+
+#abouteventbookright1 {
+	align: center;
+	vertical-align: middle;	
+	margin-top: 101px;
+	margin-right: 80px;
+	height:100%;
+	width:100%;
+	
+	background-image:url(./img/eventbookicons.png);
+	background:url(./img/eventbookicons.png);
+	background-size:250px 227px;
+	background-repeat: no-repeat;
+	background-position:middle;
+	
+	display: block;
+}
+
+#abouteventbookright2 {
+	align: center;
+	vertical-align: middle;	
+	margin-top: 101px;
+	margin-right: 80px;
+	height:100%;
+	width:100%;
+	
+	background-image:url(./img/maps_weather.png);
+	background:url(./img/maps_weather.png);
+	background-size:250px 227px;
+	background-repeat: no-repeat;
+	background-position:middle;
+	
+	display: block;
+}
+
+#footertext {
+	align: center;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100; 
+	font-size:25px;
+	color:#BBBBBB; /*#FF634A;*/
+	padding-top:15px;	
+}
+
+#smallfootertext {
+	align: center;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100; 
+	font-size:14px;
+	color:#BBBBBB; /*#FF634A;*/
+}
+
+#abouteventbooktext {
+	align: center;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100; 
+	font-size:25px;
+	color:#AAAAAA; /*#FF634A;*/
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 150px;
+}
+
+#separator {
+	padding-left: 80px;
+	height: 1px;
+	width: 800px;
+	padding-right: 80px;
+	background-color: #DDDDDD;
+}
+
+#sliderbackground {
+	background-color: #FFFFFF;
+}
+
+#container {
+    width: 237px;
+	height: 491px;
+    position: relative;
+}
+
+#iphoneheader, 
+#infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#infoi {
+	width: 195px;
+   	height: 334px;
+	top:125px;
+}
+
+.titleslider {
+    width: 195px; 
+	height: 334px;
+	margin-left: 22px;
+    overflow: hidden;
+    position: relative;
+}
+
+.titleslider > ul {
+    position: relative;
+    -webkit-transition: .5s left;
+    -moz-transition: .5s left;
+    -ms-transition: .5s left;
+    -o-transition: .5s left;
+
+   	list-style: none;
+   	margin: 0; 
+	padding: 0;
+}
+
+.titleslider > ul > li {
+    float: left;
+    width: 195px; 
+	height: 334px;
+}
+
+#colorslider {
+	width:960px;
+	height:430px;
+	background:#5C9BD5;
+	
+	/* Animations */
+	animation-name: backgroundcolors;
+	animation-duration: 25s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	
+	/* Safari and Chrome: */
+	-webkit-animation-name: backgroundcolors;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	
+	clear:both;
+}
+
+@keyframes backgroundcolors {
+	0%   {background:	#5C9BD5;}
+	19%  {background:	#5C9BD5;}
+	
+	20%  {background: #AF6EA8;}
+	39%  {background: #AF6EA8;}
+	
+	40%  {background:	#5FB695;}
+	59%  {background:	#5FB695;}
+	
+	60%  {background:	#F7A479;}
+	89%  {background:	#F7A479;}
+	
+	90%  {background:	#7468AA;}
+	99%  {background:	#7468AA;}
+}
+
+@-webkit-keyframes backgroundcolors /* Safari and Chrome */ {
+	0%   {background:	#5C9BD5;}
+	19%  {background:	#5C9BD5;}
+	
+	20%  {background: #AF6EA8;}
+	39%  {background: #AF6EA8;}
+	
+	40%  {background:	#5FB695;}
+	59%  {background:	#5FB695;}
+	
+	60%  {background:	#F7A479;}
+	89%  {background:	#F7A479;}
+	
+	90%  {background:	#7468AA;}
+	99%  {background:	#7468AA;}
+}
+
+.zeroMargin_desktop {
+    margin-left: 0;
+}
+.hide_desktop {
+    display: none;
+}

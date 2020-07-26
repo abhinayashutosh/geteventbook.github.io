@@ -1,0 +1,275 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Event Book">
+<meta name="description" content="Event Book is a free, Apple-featured, calendar app that combines traditional calendar events with maps, weather, and location to keep you on top of your schedule">
+<meta name="keywords" content="event, book, calendar, map, weather, abhi, abhinay, ashutosh, apple, ios, iphone, location, schedule">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Event Book | Calendars, Maps, Weather</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="slider.js"></script>
+</head>
+<body bgcolor="#F5F5F5">
+<div class="gridContainer clearfix">
+
+
+
+<table width="960" height="550" cellspacing="0" cellpadding="0" bgcolor="#FF634A" id="colorslider">
+  <tr width="960">
+  
+    <td width="665" id="rightheader">
+    <div id="eventbookicon" class="fluid" align="center"><img src="img/event_book_icon.png" height="97", width="97"></div>
+    <div id="eventbooktext" class="fluid" align="center">Event Book</div>
+    <div id="eventbooksubheadertext" class="fluid" align="center">Calendars made easy</div>
+    <div id="eventbookdescriptiontext" class="fluid" align="center">Event Book is a free, Apple-featured, calendar app that combines traditional calendar events with maps, weather, and location to keep you on top of your schedule</div>
+    <div class="fluid" align="center"><a href="https://itunes.apple.com/us/app/event-book/id599232745?ls=1&mt=8" target="_blank"><img src="img/download_icon.png" height="56" width="161"></a></div>
+    </td>
+    
+    <td width="295">
+    
+<div id="container">
+
+    <div id="iphoneheader" class="fluid" align="left"></div>
+    
+    <div id="infoi" class="titleslider">
+    <ul>
+      <li><img src="img/daybook.png"></li>
+      <li><img src="img/weekbook.png"></li>
+      <li><img src="img/monthbook.png"></li>
+      <li><img src="img/listbook.png"></li>
+      <li><img src="img/locationbook.png"></li>
+    </ul>
+  </div>
+
+  <script>
+    var titlesliders = []
+    $('.titleslider').each(function() {
+      titlesliders.push(new Slider(this))
+    })
+	
+	window.setInterval(function(){
+  		titlesliders[0].goToNext()
+	}, 5000);
+  </script>
+</div>
+ 
+    </td>
+      
+  </tr>
+</table>
+
+
+<!--
+<table width="960" height="20" cellspacing="0" cellpadding="0" bgcolor="#FF634A" id="colorslider" style="height:20px;">
+  <tr width="960" height="20" align="center" valign="middle">
+  	<td>
+  	<div id="smallfootertext" style="padding-bottom:10px; padding-top:10px; color:#FFFFFF; height:20px;">Designed and developed by <a href="http://www.abhinayashutosh.com/" style="color:#FFFFFF">Abhinay Ashutosh</a></div>
+    </td>
+  </tr>
+</table>
+-->
+
+
+<!------------------------------------ SEPARATOR ------------------------------------>
+
+<div id="footertext" style="background-color:#FFFFFF; padding-top:20px;">Connect with Event Book</div>
+
+<table width="960" height="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  		<tr height="110">
+        
+        <td width="320" height="110">
+        	<div align="center" style="padding-top:25px"><a href="https://www.facebook.com/geteventbook" target="_blank"><img src="img/facebook.png" height="60" width="60"></a></div>
+        </td>
+        
+        <td width="320" height="110" valign="bottom">
+        	<div align="center" style="padding-top:25px"><a href="https://twitter.com/eventbookapp" target="_blank"><img src="img/twitter.png" height="60" width="60"></a></div>
+        </td>
+        
+        <td width="320" height="110" valign="bottom">
+        	<div align="center" style="padding-top:25px"><a href="mailto:contact@geteventbook.com?subject=[Contact] Event Book&body=Hi,"><img src="img/email.png" height="60" width="60"></a></div>
+        </td>
+        
+       </tr>
+    </table>
+    
+    
+<table width="960" height="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  <td id="separator" width="800"></td>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  </tr>
+</table>
+
+<!------------------------------------ SEPARATOR ------------------------------------>
+
+<table width="960" height="430" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  	<td width="330" height="430">
+    	<div id="abouteventbook1"></div>
+    </td>
+    
+    <td width="630" height="430">
+    	<div id="abouteventbooktext">Sync instantly with all your existing iOS calendars, including <font color="#1951F7">G</font><font color="#E82631">o</font><font color="#FBB113">o</font><font color="#1951F7">g</font><font color="#01A617">l</font><font color="#E82631">e</font>, <font color="#979797">iCloud</font>, <font color="#7B0099">Yahoo</font>, <font color="#FA9C28">Exchange</font>, <font color="#F2791F">Hotmail</font>, <font color="#0860A8">AOL</font>, and more!<br/><font color="#FF634A">No set-up required.</font></div>
+    </td>
+    
+  </tr>
+</table>
+
+
+
+<table width="960" height="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  <td id="separator" width="800"></td>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  </tr>
+</table>
+
+<!------------------------------------ SEPARATOR ------------------------------------>
+
+<table width="960" height="430" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  	<td width="630" height="430">
+    	<div id="abouteventbooktext">Event Book’s unique <font color="#6BACDD">Day</font>, <font color="#BF86B7">Week</font>, <font color="#6CBFA5">Month</font>, <font color="#F9B38B">List</font>, and <font color="#857FB8">Location</font> views allow you to check out and plan for your events like never before, all in the view of your choice.</div>
+    </td>
+    
+  	<td width="330" height="430">
+    	<div id="abouteventbookright1"></div>
+    </td>
+   	
+  </tr>
+</table>
+
+
+
+<table width="960" height="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  <td id="separator" width="800"></td>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  </tr>
+</table>
+
+<!------------------------------------ SEPARATOR ------------------------------------>
+
+<table width="960" height="430" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  	<td width="330" height="430">
+    	<div id="abouteventbook2"></div>
+    </td>
+    
+  	<td width="630" height="430">
+    	<div id="abouteventbooktext">A beautiful, and ever-growing, collection of <font color="#4FBBCC">themes</font> allows you to see your calendars like never before. Choose a theme to match your mood, the weather, or the time of day.</div>
+    </td>
+
+  </tr>
+</table>
+
+
+
+<table width="960" height="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  <td id="separator" width="800"></td>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  </tr>
+</table>
+
+<!------------------------------------ SEPARATOR ------------------------------------>
+
+<table width="960" height="430" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  	<td width="630" height="430">
+    	<div id="abouteventbooktext"><font color="#857FB8">Maps</font> and <font color="#73CAC8">weather</font> integration get you where you need to go, with directions from your choice of <font color="#000000">Apple</font> or <font color="#1951F7">G</font><font color="#E82631">o</font><font color="#FBB113">o</font><font color="#1951F7">g</font><font color="#01A617">l</font><font color="#E82631">e</font> Maps, all while staying one step ahead of the weather.</div>
+    </td>
+  	
+  	<td width="330" height="430">
+    	<div id="abouteventbookright2"></div>
+    </td>
+    
+  </tr>
+</table>
+
+
+
+<table width="960" height="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  <td id="separator" width="800"></td>
+  
+  <td width="80" bgcolor="#FFFFFF"></td>
+  
+  </tr>
+</table>
+
+<!------------------------------------ SEPARATOR ------------------------------------>
+
+<div style="background-color:#333333; width:960px; height:300px;">
+
+	<div id="footertext">Connect with Event Book</div>
+    
+    <table width="960" height="1" cellspacing="0" cellpadding="0">
+  		<tr>
+        
+        <td width="320" height="175">
+        	<div align="center" style="padding-top:25px"><a href="https://www.facebook.com/geteventbook" target="_blank"><img src="img/facebook.png" height="60" width="60"></a></div>
+        	<div id="footertext">Facebook</div>
+        </td>
+        
+        <td width="320" height="175" valign="bottom">
+        	<div align="center" style="padding-top:25px"><a href="https://twitter.com/eventbookapp" target="_blank"><img src="img/twitter.png" height="60" width="60"></a></div>
+        	<div id="footertext">Twitter</div>
+        </td>
+        
+        <td width="320" height="175" valign="bottom">
+        	<div align="center" style="padding-top:25px"><a href="mailto:contact@geteventbook.com?subject=[Contact] Event Book&body=Hi,"><img src="img/email.png" height="60" width="60"></a></div>
+        	<div id="footertext">Email</div>
+        </td>
+        
+       </tr>
+    </table>
+    
+    <div id="smallfootertext" style="color:#FFFFFF; height:20px; padding-bottom:15px;">Designed and developed by <a href="http://www.abhinayashutosh.com/" style="color:#FFFFFF">Abhinay Ashutosh</a></div>
+    
+    <div id="smallfootertext">© 2013 Event Book. All rights reserved.</div>
+    
+</div>
+
+</div>
+</body>
+</html>
